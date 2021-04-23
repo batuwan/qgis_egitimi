@@ -99,7 +99,7 @@ Nesnelerin özniteliklerini gözlemleyebilmek için öznitelik tablosunu kullan�
 
 <br>
 
-![](./img/10.PNG)
+![](./img/10.png)
 
 <br>
 

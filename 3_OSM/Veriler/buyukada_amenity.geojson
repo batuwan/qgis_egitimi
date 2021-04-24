@@ -1,0 +1,1495 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-04-20T20:36:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/132654555",
+        "amenity": "grave_yard",
+        "denomination": "orthodox",
+        "name": "Büyükada Rum Ortodoks Kabristanı",
+        "name:ar": "مقبرة الروم الارثوكس في جزيرة بيوك ادا",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1238302,
+              40.8531628
+            ],
+            [
+              29.1239535,
+              40.8517389
+            ],
+            [
+              29.1246903,
+              40.8516849
+            ],
+            [
+              29.1248429,
+              40.8519918
+            ],
+            [
+              29.1248721,
+              40.8526252
+            ],
+            [
+              29.1247293,
+              40.8530867
+            ],
+            [
+              29.1243106,
+              40.8534329
+            ],
+            [
+              29.1243171,
+              40.8531825
+            ],
+            [
+              29.1238302,
+              40.8531628
+            ]
+          ]
+        ]
+      },
+      "id": "way/132654555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/132654661",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1306623,
+              40.8713682
+            ],
+            [
+              29.1307476,
+              40.871258
+            ],
+            [
+              29.1308426,
+              40.8713001
+            ],
+            [
+              29.1307573,
+              40.8714102
+            ],
+            [
+              29.1306623,
+              40.8713682
+            ]
+          ]
+        ]
+      },
+      "id": "way/132654661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231458585",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "Lunapark Restaurant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1202953,
+              40.8574049
+            ],
+            [
+              29.1201581,
+              40.8573111
+            ],
+            [
+              29.1203034,
+              40.8571895
+            ],
+            [
+              29.1204406,
+              40.8572833
+            ],
+            [
+              29.1202953,
+              40.8574049
+            ]
+          ]
+        ]
+      },
+      "id": "way/231458585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/380537417",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Kumsal Camii",
+        "religion": "muslim",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1371592,
+              40.8716306
+            ],
+            [
+              29.1370761,
+              40.8715024
+            ],
+            [
+              29.1371346,
+              40.8714675
+            ],
+            [
+              29.1372486,
+              40.871542
+            ],
+            [
+              29.1372147,
+              40.8716282
+            ],
+            [
+              29.1371592,
+              40.8716306
+            ]
+          ]
+        ]
+      },
+      "id": "way/380537417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/380537418",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Nizam Camii",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1165227,
+              40.8638646
+            ],
+            [
+              29.116576,
+              40.8637934
+            ],
+            [
+              29.1166802,
+              40.8638381
+            ],
+            [
+              29.1166269,
+              40.8639092
+            ],
+            [
+              29.1165227,
+              40.8638646
+            ]
+          ]
+        ]
+      },
+      "id": "way/380537418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/401616774",
+        "amenity": "taxi",
+        "name": "Horse Carriage"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1288766,
+              40.8741226
+            ],
+            [
+              29.129007,
+              40.8738672
+            ],
+            [
+              29.1296733,
+              40.8740369
+            ],
+            [
+              29.1297085,
+              40.8741643
+            ],
+            [
+              29.1292685,
+              40.8741667
+            ],
+            [
+              29.1288766,
+              40.8741226
+            ]
+          ]
+        ]
+      },
+      "id": "way/401616774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/401619257",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Lokantasi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1309626,
+              40.8743383
+            ],
+            [
+              29.1310566,
+              40.8743167
+            ],
+            [
+              29.1310812,
+              40.8744342
+            ],
+            [
+              29.1309728,
+              40.8744388
+            ],
+            [
+              29.1309626,
+              40.8743383
+            ]
+          ]
+        ]
+      },
+      "id": "way/401619257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/401620143",
+        "amenity": "monastery",
+        "building": "yes",
+        "denomination": "orthodox",
+        "name": "Aya Nikola Manastırı",
+        "name:bg": "Манастир \"Свети Никола\""
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1232987,
+              40.8552976
+            ],
+            [
+              29.1229173,
+              40.8546741
+            ],
+            [
+              29.1238202,
+              40.8542924
+            ],
+            [
+              29.1241073,
+              40.8541599
+            ],
+            [
+              29.1241679,
+              40.8540549
+            ],
+            [
+              29.1242968,
+              40.8538173
+            ],
+            [
+              29.1244202,
+              40.8535204
+            ],
+            [
+              29.1246613,
+              40.8533762
+            ],
+            [
+              29.1244931,
+              40.8542924
+            ],
+            [
+              29.1245772,
+              40.8553782
+            ],
+            [
+              29.1232987,
+              40.8552976
+            ]
+          ]
+        ]
+      },
+      "id": "way/401620143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/460904515",
+        "amenity": "marketplace",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1320999,
+              40.8710604
+            ],
+            [
+              29.1325632,
+              40.8707636
+            ],
+            [
+              29.1326785,
+              40.8709169
+            ],
+            [
+              29.132686,
+              40.8709619
+            ],
+            [
+              29.1326432,
+              40.8709704
+            ],
+            [
+              29.1326171,
+              40.8709971
+            ],
+            [
+              29.1323213,
+              40.8711786
+            ],
+            [
+              29.1322785,
+              40.8711252
+            ],
+            [
+              29.132232,
+              40.8711026
+            ],
+            [
+              29.132191,
+              40.8711308
+            ],
+            [
+              29.1320999,
+              40.8710604
+            ]
+          ]
+        ]
+      },
+      "id": "way/460904515"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/462429947",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Kartal Dr. Lütfi Kırdar Eğitim ve Araştırma Hastanesi Büyükada Ek Hizmet Binası"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1276072,
+              40.8701247
+            ],
+            [
+              29.1276166,
+              40.8699716
+            ],
+            [
+              29.1279689,
+              40.8699839
+            ],
+            [
+              29.1279735,
+              40.8699097
+            ],
+            [
+              29.1281683,
+              40.8699166
+            ],
+            [
+              29.1281544,
+              40.8701439
+            ],
+            [
+              29.1276072,
+              40.8701247
+            ]
+          ]
+        ]
+      },
+      "id": "way/462429947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/462431620",
+        "alt_name": "San Pasifiko Latin Katolik Kilisesi",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "San Pasifiko",
+        "name:en": "San Pacifico",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1276996,
+              40.8722783
+            ],
+            [
+              29.1275514,
+              40.8720532
+            ],
+            [
+              29.1276825,
+              40.8720038
+            ],
+            [
+              29.1278308,
+              40.8722289
+            ],
+            [
+              29.1276996,
+              40.8722783
+            ]
+          ]
+        ]
+      },
+      "id": "way/462431620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/462637274",
+        "alt_name": "Büyükada Ermeni Katolik Kilisesi",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Surp Asdvadzadzin",
+        "name:en": "Holy Mother of God",
+        "name:hy": "Սուրպ Ասդվադզադզին",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1260444,
+              40.8720996
+            ],
+            [
+              29.1260912,
+              40.8720185
+            ],
+            [
+              29.1262949,
+              40.8720857
+            ],
+            [
+              29.1262481,
+              40.8721668
+            ],
+            [
+              29.1260444,
+              40.8720996
+            ]
+          ]
+        ]
+      },
+      "id": "way/462637274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/505785924",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "orthodox",
+        "name": "Aya Nikola",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1235243,
+              40.8548755
+            ],
+            [
+              29.1234521,
+              40.8547791
+            ],
+            [
+              29.1235758,
+              40.8547118
+            ],
+            [
+              29.1235851,
+              40.8547326
+            ],
+            [
+              29.1235827,
+              40.8547533
+            ],
+            [
+              29.1235981,
+              40.854751
+            ],
+            [
+              29.1236137,
+              40.8547527
+            ],
+            [
+              29.1236272,
+              40.8547581
+            ],
+            [
+              29.1236377,
+              40.8547666
+            ],
+            [
+              29.1236439,
+              40.8547772
+            ],
+            [
+              29.1236453,
+              40.8547871
+            ],
+            [
+              29.123643,
+              40.8547968
+            ],
+            [
+              29.1236357,
+              40.8548072
+            ],
+            [
+              29.1236241,
+              40.8548152
+            ],
+            [
+              29.1236483,
+              40.8548217
+            ],
+            [
+              29.1236686,
+              40.8548402
+            ],
+            [
+              29.1235243,
+              40.8548755
+            ]
+          ]
+        ]
+      },
+      "id": "way/505785924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/682354329",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Ayios Dimitrios Rum Ortodoks Kilisesi",
+        "religion": "christian"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1329665,
+              40.873749
+            ],
+            [
+              29.1329422,
+              40.8735066
+            ],
+            [
+              29.1332825,
+              40.8735074
+            ],
+            [
+              29.1333924,
+              40.8736265
+            ],
+            [
+              29.1333751,
+              40.8737184
+            ],
+            [
+              29.1329665,
+              40.873749
+            ]
+          ]
+        ]
+      },
+      "id": "way/682354329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/742393689",
+        "amenity": "school",
+        "name": "Büyükada Şehit Murat Yüksel İlkokulu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1275203,
+              40.8695127
+            ],
+            [
+              29.1274402,
+              40.8691096
+            ],
+            [
+              29.1279301,
+              40.8689465
+            ],
+            [
+              29.1280441,
+              40.8694871
+            ],
+            [
+              29.1275203,
+              40.8695127
+            ]
+          ]
+        ]
+      },
+      "id": "way/742393689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/742393690",
+        "amenity": "school",
+        "name": "Büyükada 125.yıl Atatürk Ortaokulu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1291255,
+              40.8678072
+            ],
+            [
+              29.1288051,
+              40.8676697
+            ],
+            [
+              29.1286818,
+              40.8673016
+            ],
+            [
+              29.1289098,
+              40.8670942
+            ],
+            [
+              29.1294706,
+              40.8673831
+            ],
+            [
+              29.1295969,
+              40.8676301
+            ],
+            [
+              29.1291255,
+              40.8678072
+            ]
+          ]
+        ]
+      },
+      "id": "way/742393690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/742393691",
+        "amenity": "school",
+        "name": "Büyükada İmam Hatip Ortaokulu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1316808,
+              40.867841
+            ],
+            [
+              29.1317398,
+              40.8673826
+            ],
+            [
+              29.1322843,
+              40.8673805
+            ],
+            [
+              29.132287,
+              40.8676057
+            ],
+            [
+              29.132456,
+              40.8676118
+            ],
+            [
+              29.1324158,
+              40.8678714
+            ],
+            [
+              29.1316808,
+              40.867841
+            ]
+          ]
+        ]
+      },
+      "id": "way/742393691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/746217504",
+        "amenity": "monastery",
+        "building": "yes",
+        "denomination": "greek_orthodox",
+        "name": "Aya Yorgi Manastırı",
+        "religion": "christian",
+        "wikidata": "Q6903317",
+        "wikipedia": "tr:Büyükada Aya Yorgi Manastırı"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1189001,
+              40.8486868
+            ],
+            [
+              29.1190894,
+              40.8486788
+            ],
+            [
+              29.1190929,
+              40.8487902
+            ],
+            [
+              29.1188966,
+              40.8488035
+            ],
+            [
+              29.1189001,
+              40.8486868
+            ]
+          ]
+        ]
+      },
+      "id": "way/746217504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/677531498",
+        "addr:postcode": "34970",
+        "amenity": "place_of_worship",
+        "denomination": "greek_orthodox",
+        "int_name": "Hagios Giorgios Church",
+        "name": "Aya Yorgi Manastırı",
+        "name:ar": "كنيسة هاجيوس جرجس",
+        "name:en": "Hagios Giorgios Church",
+        "name:ro": "Mănăstirea Ortodoxă „Sfântul Gheorghe”",
+        "religion": "christian",
+        "wikidata": "Q6903317",
+        "wikipedia": "tr:Büyükada Aya Yorgi Manastırı"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.118839,
+          40.8487443
+        ]
+      },
+      "id": "node/677531498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1459164755",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Deniz Ambulansı",
+        "name:ar": "مستوصف دينيز"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1324975,
+          40.874629
+        ]
+      },
+      "id": "node/1459164755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1459164757",
+        "amenity": "place_of_worship",
+        "name": "Hacı Havva Özen Camii",
+        "name:ar": "جامع الحاج هفا اوزان",
+        "religion": "muslim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1299312,
+          40.8744938
+        ]
+      },
+      "id": "node/1459164757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1459165208",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1167039,
+          40.8605875
+        ]
+      },
+      "id": "node/1459165208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1459165653",
+        "amenity": "fire_station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1372825,
+          40.871753
+        ]
+      },
+      "id": "node/1459165653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1459165915",
+        "amenity": "post_office"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1292471,
+          40.8747533
+        ]
+      },
+      "id": "node/1459165915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2686565318",
+        "amenity": "cafe",
+        "disused": "shop",
+        "internet_access": "wlan",
+        "name": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1266902,
+          40.8732907
+        ]
+      },
+      "id": "node/2686565318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4040271423",
+        "amenity": "cafe",
+        "name": "BZM Mutfak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1287159,
+          40.8732249
+        ]
+      },
+      "id": "node/4040271423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4040300212",
+        "amenity": "atm",
+        "name": "Ziraat ATM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1293938,
+          40.8747049
+        ]
+      },
+      "id": "node/4040300212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4040300213",
+        "amenity": "atm",
+        "name": "Halkbank ATM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1296671,
+          40.8745928
+        ]
+      },
+      "id": "node/4040300213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4040300217",
+        "amenity": "post_office",
+        "name": "FedEx"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1305068,
+          40.8739705
+        ]
+      },
+      "id": "node/4040300217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4040300223",
+        "amenity": "atm",
+        "name": "Akbank ATM"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1313326,
+          40.8742672
+        ]
+      },
+      "id": "node/4040300223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4040300224",
+        "amenity": "cafe",
+        "name": "Jacks Cafe Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1318,
+          40.8729314
+        ]
+      },
+      "id": "node/4040300224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4040310889",
+        "amenity": "cafe",
+        "name": "Meziki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1341129,
+          40.8707221
+        ]
+      },
+      "id": "node/4040310889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4053645607",
+        "amenity": "courthouse",
+        "name": "Adalar Adliyesi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1222716,
+          40.8707667
+        ]
+      },
+      "id": "node/4053645607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4879797821",
+        "amenity": "cafe",
+        "name:en": "Hayal Adasi Cafe & Bistro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1294609,
+          40.8732154
+        ]
+      },
+      "id": "node/4879797821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4935862767",
+        "amenity": "restaurant",
+        "name": "Yücetepe Kır Gazinosu",
+        "opening_hours": "Mo-Su 10:00-00:00",
+        "website": "yucetepe.com.tr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1194522,
+          40.8487471
+        ]
+      },
+      "id": "node/4935862767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5104610624",
+        "amenity": "cafe",
+        "name": "Aşıklar Tepesi Kafe",
+        "name:en": "Asiklar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.112638,
+          40.8610859
+        ]
+      },
+      "id": "node/5104610624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5116752359",
+        "access": "customers",
+        "amenity": "toilets",
+        "female": "yes",
+        "male": "yes",
+        "toilets:position": "squat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1132639,
+          40.8597971
+        ]
+      },
+      "id": "node/5116752359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5116752360",
+        "access": "customers",
+        "amenity": "shower",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1132559,
+          40.8597514
+        ]
+      },
+      "id": "node/5116752360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5116752361",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.115466,
+          40.8594552
+        ]
+      },
+      "id": "node/5116752361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5123750288",
+        "amenity": "bicycle_parking",
+        "covered": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1154246,
+          40.8596178
+        ]
+      },
+      "id": "node/5123750288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5135663221",
+        "addr:housenumber": "89b",
+        "amenity": "restaurant",
+        "cuisine": "fish",
+        "name:fr": "Ali baba poisson"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1297946,
+          40.8750647
+        ]
+      },
+      "id": "node/5135663221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5212241321",
+        "amenity": "restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.12842,
+          40.8736735
+        ]
+      },
+      "id": "node/5212241321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5212241322",
+        "amenity": "restaurant",
+        "name:en": "Iraqi Res."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1282782,
+          40.8740266
+        ]
+      },
+      "id": "node/5212241322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5238970121",
+        "amenity": "cafe",
+        "name": "Umut Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1316117,
+          40.8743806
+        ]
+      },
+      "id": "node/5238970121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5627354921",
+        "amenity": "bicycle_rental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.128255,
+          40.8736625
+        ]
+      },
+      "id": "node/5627354921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5761360623",
+        "addr:housenumber": "2",
+        "addr:street": "Çiçekli Yalı Sokak",
+        "amenity": "restaurant",
+        "name:en": "Kiyi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1303376,
+          40.8744082
+        ]
+      },
+      "id": "node/5761360623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5792255054",
+        "amenity": "school",
+        "name": "Adakademi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1257438,
+          40.8727543
+        ]
+      },
+      "id": "node/5792255054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5922314685",
+        "addr:housenumber": "83",
+        "addr:street": "Gülistan Caddesi",
+        "amenity": "restaurant",
+        "name": "Facyo",
+        "phone": "02163826063",
+        "website": "http://www.facyo.com.tr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1305738,
+          40.8749562
+        ]
+      },
+      "id": "node/5922314685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6390107132",
+        "amenity": "restaurant",
+        "name": "Botanik Cafe & Restaurant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1316899,
+          40.8745674
+        ]
+      },
+      "id": "node/6390107132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6479054885",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.128275,
+          40.8744397
+        ]
+      },
+      "id": "node/6479054885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6577541135",
+        "amenity": "restaurant",
+        "name": "Eskibağ Restoran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1146919,
+          40.8495407
+        ]
+      },
+      "id": "node/6577541135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6577549213",
+        "access": "private",
+        "amenity": "parking",
+        "horse": "yes",
+        "operator": "İSPARK",
+        "parking": "garage_boxes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1260889,
+          40.846475
+        ]
+      },
+      "id": "node/6577549213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7820088985",
+        "amenity": "cafe",
+        "name": "kafe",
+        "name:en": "Cafe",
+        "name:ru": "Кафе"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1129516,
+          40.8423497
+        ]
+      },
+      "id": "node/7820088985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7826475386",
+        "amenity": "restaurant",
+        "cuisine": "fish",
+        "internet_access": "wlan",
+        "name": "Balikçi  Süleyman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1302059,
+          40.8744609
+        ]
+      },
+      "id": "node/7826475386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7862085985",
+        "amenity": "bench"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1097929,
+          40.8610298
+        ]
+      },
+      "id": "node/7862085985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7992936987",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1339308,
+          40.8639873
+        ]
+      },
+      "id": "node/7992936987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8091531117",
+        "amenity": "cafe",
+        "name": "Jumbo Künefe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1301303,
+          40.8745635
+        ]
+      },
+      "id": "node/8091531117"
+    }
+  ]
+}

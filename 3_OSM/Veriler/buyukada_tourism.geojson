@@ -1,0 +1,444 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2021-04-20T20:31:48Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/462429961",
+        "building": "yes",
+        "name": "Büyükada Apart Otel",
+        "tourism": "apartment"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1293846,
+              40.8723187
+            ],
+            [
+              29.1294266,
+              40.8721652
+            ],
+            [
+              29.1296306,
+              40.872197
+            ],
+            [
+              29.1295886,
+              40.8723506
+            ],
+            [
+              29.1293846,
+              40.8723187
+            ]
+          ]
+        ]
+      },
+      "id": "way/462429961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/462431628",
+        "building": "yes",
+        "name": "Prinkipos Hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1294673,
+              40.873298
+            ],
+            [
+              29.1294756,
+              40.8732289
+            ],
+            [
+              29.1296313,
+              40.8732151
+            ],
+            [
+              29.1296228,
+              40.8733475
+            ],
+            [
+              29.1294673,
+              40.873298
+            ]
+          ]
+        ]
+      },
+      "id": "way/462431628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/462637269",
+        "building": "yes",
+        "name": "Büyükada Splendid Palace Hotel",
+        "phone": "0216 382 69 50",
+        "tourism": "hotel",
+        "website": "http://www.splendidhotel.net/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              29.1261337,
+              40.8728801
+            ],
+            [
+              29.1262289,
+              40.8727378
+            ],
+            [
+              29.1263426,
+              40.8727813
+            ],
+            [
+              29.1263732,
+              40.8727356
+            ],
+            [
+              29.1262779,
+              40.8726991
+            ],
+            [
+              29.1263812,
+              40.8725448
+            ],
+            [
+              29.1266672,
+              40.8726542
+            ],
+            [
+              29.1264381,
+              40.8729965
+            ],
+            [
+              29.1261337,
+              40.8728801
+            ]
+          ]
+        ]
+      },
+      "id": "way/462637269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3040654724",
+        "name": "Masal Pension",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1327915,
+          40.8742366
+        ]
+      },
+      "id": "node/3040654724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4040300226",
+        "name": "Yildizlar hotel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1295364,
+          40.8729541
+        ]
+      },
+      "id": "node/4040300226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4178471933",
+        "addr:city": "Büyükada",
+        "addr:housenumber": "maden mahallsi",
+        "addr:street": "Çınar Caddesi",
+        "name": "ÇENAR KONAK Butik Otel",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1318209,
+          40.8732379
+        ]
+      },
+      "id": "node/4178471933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4244683312",
+        "name": "Kartal belediye tesisleri",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1252342,
+          40.8514835
+        ]
+      },
+      "id": "node/4244683312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4269569189",
+        "name": "Yeni Köşk Orman",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1227448,
+          40.8686223
+        ]
+      },
+      "id": "node/4269569189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4308655789",
+        "internet_access": "wlan",
+        "name": "Nizam butik otel & bistro",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1161525,
+          40.8632919
+        ]
+      },
+      "id": "node/4308655789"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4878137863",
+        "addr:street": "Aya Nikola Mevkii",
+        "name": "Museum of the Princes' Islands",
+        "name:tr": "Adalar Müzesi",
+        "opening_hours": "Tu-Su 09:00-18:00",
+        "tourism": "museum",
+        "website": "http://www.adalarmuzesi.org/cms/english",
+        "wikidata": "Q20474042",
+        "wikipedia": "en:Museum of the Princes' Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1250164,
+          40.8564975
+        ]
+      },
+      "id": "node/4878137863"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5177891321",
+        "tourism": "picnic_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1225277,
+          40.8565914
+        ]
+      },
+      "id": "node/5177891321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5675322822",
+        "tourism": "picnic_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1130549,
+          40.8593955
+        ]
+      },
+      "id": "node/5675322822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5820078759",
+        "name": "Çavuşun Yeri",
+        "smoking": "outside",
+        "tourism": "hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1308978,
+          40.8701976
+        ]
+      },
+      "id": "node/5820078759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5880901185",
+        "name": "Prensesler Adası",
+        "name:ar": "جزيرة الاميرات",
+        "tourism": "apartment"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1286771,
+          40.8730509
+        ]
+      },
+      "id": "node/5880901185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6329085485",
+        "tourism": "picnic_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1084093,
+          40.8611017
+        ]
+      },
+      "id": "node/6329085485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6451225386",
+        "addr:housenumber": "55",
+        "addr:street": "Çankaya Caddesi",
+        "name:en": "Trotsky House",
+        "name:ru": "Дом Троцкого",
+        "name:ua": "Дім Троцького",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1165942,
+          40.8703158
+        ]
+      },
+      "id": "node/6451225386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6806095386",
+        "name:en": "Sunset viewpoint",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1219174,
+          40.8645275
+        ]
+      },
+      "id": "node/6806095386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7039125185",
+        "name:ru": "Красивый вид на острова",
+        "tourism": "viewpoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1185049,
+          40.8488263
+        ]
+      },
+      "id": "node/7039125185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7516655494",
+        "name:ar": "جزيره الأميرات",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1264888,
+          40.873769
+        ]
+      },
+      "id": "node/7516655494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8010781085",
+        "name": "Plaj",
+        "name:en": "Beach",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1207115,
+          40.8384284
+        ]
+      },
+      "id": "node/8010781085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8116245517",
+        "addr:housenumber": "175",
+        "addr:postcode": "34970",
+        "addr:street": "Yılmaz Türk Caddesi",
+        "internet_access": "wlan",
+        "name": "Loc’ada Büyükada",
+        "tourism": "hotel",
+        "website": "http://buyukadalocada.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1261627,
+          40.8575361
+        ]
+      },
+      "id": "node/8116245517"
+    }
+  ]
+}

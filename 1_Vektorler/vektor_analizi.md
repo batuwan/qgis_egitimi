@@ -427,7 +427,7 @@ görülebilir.
 
 <br>
 
-![](./img/06.03.png)
+![](./img/06.03.PNG)
 
 <br>
 
@@ -462,7 +462,7 @@ içeren iki farklı ifade ile seçim yapılmalıdır.
 
 <br>
 
-![](./img/06.06.png)
+![](./img/06.06.PNG)
 
 <br>
 
@@ -471,7 +471,7 @@ taşı” seçeneği tıklanır ve seçimlerin en üstte olduğu görülebilir.
 
 <br>
 
-![](./img/06.07.png)
+![](./img/06.07.PNG)
 
 <br>
 
@@ -479,7 +479,7 @@ Seçilen öznitelik farklı bir katman olarak kaydedilir ve çalışmaya eklenir
 
 <br>
 
-![](./img/06.08.png)
+![](./img/06.08.PNG)
 
 <br>
 
@@ -500,7 +500,7 @@ işlemi tamamlanır ve çalışmaya eklenir.
 
 <br>
 
-![](./img/06.10.png)
+![](./img/06.10.PNG)
 
 <br>
 
@@ -539,7 +539,7 @@ semboloji seçilir. “Kural ekle” butonuna tıklanır.
 
 <br>
 
-![](./img/06.14.png)
+![](./img/06.14.PNG)
 
 <br>
 
@@ -552,13 +552,13 @@ aşağıdaki şekillerde görülebilir.
 
 <br>
 
-![](./img/06.15.png)
+![](./img/06.15.PNG)
 
 <br>
 
 <br>
 
-![](./img/06.16.png)
+![](./img/06.16.PNG)
 
 <br>
 
@@ -566,7 +566,7 @@ Olası kural örnekleri şekilde gösterilmiştir.
 
 <br>
 
-![](./img/06.17.png)
+![](./img/06.17.PNG)
 
 <br>
 
@@ -577,7 +577,7 @@ semboloji” penceresinden “sembol seviyesi” penceresi açılır.
 
 <br>
 
-![](./img/06.18.png)
+![](./img/06.18.PNG)
 
 <br>
 
@@ -586,7 +586,7 @@ pencerede en üstte gözükmesi istenen semboller en yüksek seviyede olacak şe
 
 <br>
 
-![](./img/06.19.png)
+![](./img/06.19.PNG)
 
 <br>
 
@@ -595,7 +595,7 @@ gösterilmiştir.
 
 <br>
 
-![](./img/06.20.png)
+![](./img/06.20.PNG)
 
 <br>
 
@@ -604,7 +604,7 @@ sekmesinden “Kurala kategori ekle” seçeneği seçilir.
 
 <br>
 
-![](./img/06.21.png)
+![](./img/06.21.PNG)
 
 <br>
 
@@ -613,7 +613,7 @@ oluşturulan sınıfların sembol seviyeleri düzenlenir.
 
 <br>
 
-![](./img/06.22.png)
+![](./img/06.22.PNG)
 
 <br>
 
@@ -621,7 +621,7 @@ Yapılan örnek sınıflandırmalar şu şekildedir:
 
 <br>
 
-![](./img/06.23.png)
+![](./img/06.23.PNG)
 
 <br>
 
@@ -629,7 +629,7 @@ Harita üzerinde görünüm:
 
 <br>
 
-![](./img/06.24.png)
+![](./img/06.24.PNG)
 
 <br>
 <br>

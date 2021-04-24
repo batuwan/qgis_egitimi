@@ -1,10 +1,16 @@
-# Vektör Veriler ile Çalışma 
+# 1. Vektör Veriler ile Çalışma 
 
 Bu uygulamada açık veri platformlarından edinilen mekansal veri setleri ile vektör veriler üzerinde temel işlemlerin yapılması amaçlanmıştır.
 
 
-## Veri Seti
+## 1.1. Veri Seti
+
+<br>
+
 ![](./img/01.PNG)
+
+<br>
+
 Veri seti olarak [Humanitarian Data Exchange](https://data.humdata.org/) web sayfasında paylaşılan:
 
 - [Türkiye'deki Eğitim Tesisleri (Çokgen geometri tipinde)](https://data.humdata.org/dataset/hotosm_tur_education_facilities)
@@ -19,7 +25,7 @@ veri setleri kullanılmıştır.
 <br>
 
 
-## Vektör Verilerin Projeye Aktarılması
+## 1.2. Vektör Verilerin Projeye Aktarılması
 
 'Shapefile (.shp)' dosya formatında indirilen verilerin içeri aktarılması için, açılan projede, üst menüden;
 
@@ -50,7 +56,7 @@ Okullar, yollar ve ikinci seviye idari sınırlar katmanları projeye eklendikte
 <br>
 <br>
 
-## Projenin Koordinat Referans Sisteminin Ayarlanması
+## 1.3. Projenin Koordinat Referans Sisteminin Ayarlanması
 
 Çalışılacak koordinat sisteminin seçilmesi için;
 > Proje -> Özellikler 
@@ -77,7 +83,7 @@ Projeksiyon Koordinat Sistemi' [EPSG:5637 - TUREF / LCC Europe](https://epsg.io/
 <br>
 <br>
 
-## Katmanlarda Filtreleme ve Sorgu İşlemleri
+## 1.4. Katmanlarda Filtreleme ve Sorgu İşlemleri
 
 Nesnelerin özniteliklerini gözlemleyebilmek için öznitelik tablosunu kullanırız. Bu tabloya ulaşmak için ilgili katmana sağ tıklanır, açılan menüde "Öznitelik Tablosu" butonu tıklanır. 
 
@@ -99,7 +105,7 @@ Nesnelerin özniteliklerini gözlemleyebilmek için öznitelik tablosunu kullan�
 
 <br>
 
-![](./img/10.png)
+![](./img/10.PNG)
 
 <br>
 
@@ -150,7 +156,7 @@ Diğer katmanların görünürlük tikleri kaldırıldığında, eklenen katman�
 
 <br>
 
-## CSV Dosyalarının İçe Aktarılması
+## 1.5. CSV Dosyalarının İçe Aktarılması
 
 Türkiye İstatistik Kurumu (TÜİK) web sayfasından 2015 - 2019 yıllarına ait İstanbul ilçe nüfus verileri, "istanbul_ilce_nufus.csv" dosya adıyla kaydedilmiştir. Bu dosyayı içeri aktarmak için üst menüden:
 > Katman -> Katman Ekle -> Ayrılmış Metin Katmanı Ekle
@@ -172,7 +178,7 @@ yolu izlenerek ilgili pencereye ulaşılır.
 <br>
 <br>
 
-## Tablo Birleştirme İşlemleri 
+## 1.6. Tablo Birleştirme İşlemleri 
 
 Eklenen nüfus verisi katmanı ile ilçeler katmanını birleştirmek için üst menüde yer alan veya 'CTRL+ALT+T' tuş kombinasyonu ile ulaşılabilen “Araçlar” menüsünden “alan değerlerine göre öznitelikleri birleştir” penceresine ulaşılır.
 
@@ -200,13 +206,42 @@ Aşağıdaki şekilde, işlem tamamlandıktan sonra nüfus bilgilerinin tabloya 
 
 <br>
 
-## Katman Sembolojisi Ayarlama
+## 1.7. Alan Hesaplayıcı ile Tabloya Yeni Alan Ekleme
 
-Katman sembolojisi tablo alanlarına, değerlere bağlı olarak kurallara ve koşullara göre belirlenebilir. Bu çalışmada 2019 yılı nüfus verilerine göre sınıflar oluşturulmuş ve uygun görülen renk paletiyle gösterim yapılmıştır. Katman özelliklerinden “semboloji” sekmesine ulaşılır, “derecelendirilmiş” seçeneği seçilir, sonrasında sınıflandırmanın yapılacağı tablo alanı, renk paleti seçilir. “Sınıflandır” butonuyla işlem tamamlanır. Oluşan sınıfların taban, tavan değerleri uygun şekilde normalize edilir.
+Nüfus yoğunluğu haritası oluşturmak için, ilçelerin alanlarının hesaplanması gerekmektedir. Bu sebeple katmanın öznitelik tablosu açılır. Araç çubuğunda bulunan 'abaküs' simgesi ile 'Alan Hesaplayıcı' aracına ulaşılır.
 
 <br>
 
-![](./img/21.PNG)
+![](./img/Capture.png)
+
+<br>
+
+'Yeni alan oluştur' seçeneği işaretlenir, alan ismi ve veri tipi belirlenir. Hesaplamak için '$area' fonksiyonu kullanılır. Kilometre kare cinsinden hesap yapılmak istendiği için alan değeri '1.000.000' ile bölünür. İfade şu şekildedir.
+
+> $area / 1000000
+
+<br>
+
+![](./img/Capture2.png)
+
+<br>
+
+'area' alanının km² biriminde tabloya eklendiği görülebilir.
+
+<br>
+
+![](./img/Capture3.png)
+
+<br>
+
+
+## 1.8. Katman Sembolojisi Ayarlama
+
+Katman sembolojisi tablo alanlarına, değerlere bağlı olarak kurallara ve koşullara göre belirlenebilir. Bu çalışmada 2019 yılı nüfus verilerine ve ilçe alanlarına göre sınıflar oluşturulmuş ve uygun görülen renk paletiyle gösterim yapılmıştır. Katman özelliklerinden “semboloji” sekmesine ulaşılır, “derecelendirilmiş” seçeneği seçilir, sonrasında sınıflandırmanın yapılacağı ifade belirlenir, renk paleti seçilir. “Sınıflandır” butonuyla işlem tamamlanır. Oluşan sınıfların taban, tavan değerleri uygun şekilde normalize edilir.
+
+<br>
+
+![](./img/Capture4.PNG)
 
 <br>
 
@@ -222,12 +257,12 @@ Katman özelliklerini kullanarak varlıklar üzerinde etiket üretmek de mümkü
 
 <br>
 
-![](./img/23.PNG)
+![](./img/Capture5.PNG)
 
 <br>
 <br>
 
-## Nüfus Verisine Göre Sorgular
+## 1.9. Nüfus Verisine Göre Sorgular
 
 Örnek olarak 2018 - 2019 yılları arasında nüfusu yüzde 5'in üzerinde artan ilçeler sorgulanmak istenmiştir. İfade şu şekildedir:
 
@@ -242,7 +277,7 @@ Katman özelliklerini kullanarak varlıklar üzerinde etiket üretmek de mümkü
 <br>
 <br>
 
-## Basılabilir Harita Oluşturma
+## 1.10. Basılabilir Harita Oluşturma
 
 QGIS ortamında yapılan çalışmayı basılabilir hale getirmek için “Proje” menüsünden “Yeni Baskı Düzeni Oluştur” sekmesi tıklanır.
 
@@ -280,7 +315,7 @@ Aynı şekilde kuzey oku, lejant ve ölçek ögeleri de haritaya yerleştirilir.
 
 <br>
 
-![](./img/29.PNG)
+![](./img/Capture6.PNG)
 
 <br>
 <br>
@@ -290,7 +325,318 @@ Aynı şekilde kuzey oku, lejant ve ölçek ögeleri de haritaya yerleştirilir.
 <br>
 <br>
 
-## Vektör Analiz Araçları
+## 1.11. OpenStreetMap Altlığı Üzerinde Sayısallaştırma İşlemleri
+
+
+Sayısallaştırma, coğrafi bilgi sistemi uygulamalarında raster verinin vektör veriye
+dönüştürülmesi için yaygın kullanılan bir yöntemdir. Bu bölümde QGIS yazılımı
+kullanılarak OSM altlık haritası üzerinde nokta, çizgi, çokgen vektör veri tiplerinde veri üretimi yapılmıştır.
+
+İlk olarak QGIS ile birlikte gelen OpenStreetMap altlığı projeye eklenir. 
+
+> Browser -> XYX Tiles -> OpenStreetMap
+
+yolu izlenerek ulaşılabilir.
+
+<br>
+
+![OpenStreetMap altlığı ekleme](./img/01.01.png)
+
+<br>
+
+Ardından, ilk katmanımız olan çokgen (polygon) katmanını oluşturmak için üst menüden 
+
+>*"Katman -> Katman Oluştur -> Yeni ShapeFile Katmanı"* 
+
+yolu ile katman oluşturma penceresine ulaşılır. 
+
+<br>
+
+![ShapeFile Katmanı Oluştur - 1](./img/01.02.png)
+
+<br>
+
+Açılan pencerede; dosyanın kaydedileceği konum ve dosya ismi, geometri tipi, çalışılacak koordinat sistemi belirlenir, tablonun alanları eklenir  ve *Tamam* tuşu ile işlem tamamlanır. Oluşturulan katman, katmanlar menüsünde görülebilir.
+
+<br>
+
+![ShapeFile Katmanı Oluştur - 2](./img/01.03.png)
+
+<br>
+
+Oluşturulan katman seçili durumdayken araç çubuğunda bulunan düzenleme
+araçlarından düzenleme aktifleştirilir ve poligon detayı ekle tuşuyla sayısallaştırma
+işlemine başlanır.
+
+<br>
+
+![Sayısallaştırma işlemi](./img/01.04.png)
+
+<br>
+
+Sayısallaştırmak üzere seçilen nesne üzerinde çizilen poligon, farenin sağ tuşu ile
+tamamlanır ve daha önce katman özelliklerinde belirlenen alanlara göre bilgiler
+girilerek öznitelik kaydedilir.
+
+<br>
+
+<img src="./img/01.05.png" width="65%">
+
+<br>
+
+<br>
+
+![Sayısallaştırma işlemi](./img/01.06.png)
+
+<br>
+
+Aynı işlemler nokta ve çizgi katmanları oluşturularak tekrarlanır. Çizimler tamamlandığında verilerin kanava üzerindeki durumu aşağıdaki gibidir.
+
+<br>
+
+![Sayısallaştırma işlemi](./img/01.07.png)
+
+<br>
+<br>
+<br>
+
+## 1.12. OpenStreetMap Verileri İle Çalışma
+
+OpenStreetMap verilerini indirebilmek için çeşitli yollar vardır. Bu çalışmada
+OpenStreetMap web sitesi üzerinden dışa aktarma işlemi yapılmıştır. Diğer
+yöntemler hakkında bilgi almak için OpenStreetMap web sitesi ziyaret edilebilir.
+İlk olarak OpenStreetMap web sayfasına girilir ve üst kısımda yer alan “Export”
+butonu ile dışa aktarma sayfasına ulaşılır. İhtiyaç duyulan alanı seçmek için şekilde gösterilen “El ile farklı bir alan seç” seçeneğiyle harita üzerinde istenilen
+alan çokgen içine alınır. Dışa aktar seçeneği ile bilgisayara kaydedilir.
+
+<br>
+
+![Save selected features as...](./img/06.01.png)
+
+<br>
+
+![](./img/06.02.png)
+
+<br>
+
+Daha sonra QGIS ortamında “Vektör Katmanı Ekle” seçeneği ile indirilen veri seti
+açılır. Çizgi, çoklu çizgi, çokgen, nokta ve ilişkiler katmanlarının eklendiği
+görülebilir.
+
+ Eklenen katmanlar:
+
+<br>
+
+![](./img/06.03.png)
+
+<br>
+
+Katmanların kanava üzerinde görünümü:
+
+<br>
+
+![](./img/06.04.png)
+
+<br>
+
+Öznitelik tablosu incelendiğinde görülebileceği üzere öznitelikler OSM
+veritabanında etiketler halinde saklanır. Turizm tesisi, spor alanı, bina, tesis gibi alt
+başlıklar sınıflandırma yapılarak farklı katmanlara ayrılabilir. Bu çalışmada İTÜ
+Ayazağa Kampüsü sınırları içerisinde bulunan varlıklar kullanılacaktır. Bu nedenle
+kampüs sınırlarını belirten öznitelik bulunarak ayrı bir katman olarak kaydedilmeli
+ve diğer katmanlar bu referans katmana göre kırpılmalıdır. İlk olarak çokgen
+katmanının öznitelik tablosundan sorgu penceresi açılır.
+
+Sorgu ekranında “Alanlar ve Değerler” başlığından “amenity (tesis)” alanına çift
+tıklanır. “All unique” seçeneğine tıklayarak alanın alabileceği değerler görülebilir.
+
+<br>
+
+![](./img/06.05.png)
+
+<br>
+
+ Bir üniversite kampüsünün karşılığı olabilecek değerler şekilde
+görüldüğü üzere “college” veya “university” olabilir. Bu sebeple “veya” bağlacı
+içeren iki farklı ifade ile seçim yapılmalıdır. 
+
+<br>
+
+![](./img/06.06.png)
+
+<br>
+
+İfadeye göre seçim işlemi yapıldıktan sonra, öznitelik tablosunda “seçimleri en üste
+taşı” seçeneği tıklanır ve seçimlerin en üstte olduğu görülebilir.
+
+<br>
+
+![](./img/06.07.png)
+
+<br>
+
+Seçilen öznitelik farklı bir katman olarak kaydedilir ve çalışmaya eklenir.
+
+<br>
+
+![](./img/06.08.png)
+
+<br>
+
+Eğer veri setinde geçersiz geometriler bulunuyorsa, bu hatalar el ile yahut
+“Geometrileri düzelt (fix geometries)” aracı ile düzeltilmelidir ve düzeltilmiş
+geometriler yeni katman olarak eklenmelidir. Bu araca ulaşmak için “Ctrl+Alt+T”
+kısayolu ile ulaşılan araç kutusundan “Vektör geometrisi” menüsündeki
+“Geometrileri düzelt” aracı seçilir.
+
+<br>
+
+![](./img/06.09.png)
+
+<br>
+
+Ulaşılan pencerede girdi katman ve çıktı katmanın konumu belirlenerek düzeltme
+işlemi tamamlanır ve çalışmaya eklenir.
+
+<br>
+
+![](./img/06.10.png)
+
+<br>
+
+Referans katmana göre kırpma işlemi için araç kutusundan “Vector overlay” menüsü
+altında bulunan “Clip (kırp)” aracı seçilir.
+
+<br>
+
+![](./img/06.11.png)
+
+<br>
+
+Açılan pencerede kırpılacak katman girdi olarak, kırpmaya referans olan katman
+örten katman olarak seçilir. Çıktı katmanın ismi ve kaydedilecek konumu belirlenir.
+İşlem gerçekleştirilir ve çıktı katman çalışmaya aktarılır.
+
+<br>
+
+![](./img/06.12.png)
+
+<br>
+
+Bu işlem çokgen, çizgi ve nokta katmanları için uygulandıktan sonra “Katmanlar”
+bölümünden kırpılmış katmanlar dışında kalan katmanların görünürlük tiki kaldırılır.
+Oluşan sonuç şekilde gösterilmiştir.
+
+<br>
+
+![](./img/06.13.png)
+
+<br>
+
+Çokgen katmanında bulunan özniteliklerin sınıflandırılması için kırpılmış olan
+poligon katmanında “katman özellikleri” açılır. Semboloji sekmesinde “Kural bazlı”
+semboloji seçilir. “Kural ekle” butonuna tıklanır.
+
+<br>
+
+![](./img/06.14.png)
+
+<br>
+
+OpenStreetMap verileri etiketlerle saklandığı için tablo alanlarına göre sınıflandırma
+yapmak gerekir. Örneğin, binaları sınıflandırmak için “building” alanında bulunan
+değerler belirleyicidir. Bu nedenle “building” alanı boş olmayan varlıkları seçmek
+gerekmektedir. Bunun için “eşit değil” anlamına gelen “<>” operatörü
+kullanılır. Yapılan seçim işlemi ve sınıflandırma sonucu
+aşağıdaki şekillerde görülebilir.
+
+<br>
+
+![](./img/06.15.png)
+
+<br>
+
+<br>
+
+![](./img/06.16.png)
+
+<br>
+
+Olası kural örnekleri şekilde gösterilmiştir.
+
+<br>
+
+![](./img/06.17.png)
+
+<br>
+
+Büyük alanlı varlıklar, çizim sırasından dolayı diğer
+varlıkları kapatabilir. Çalışmada kullanılan varlıklar en üstte gözükecek varlıktan en
+altta gözükecek varlığa doğru çizim sırasına sokulmalıdır. Bunun için “Kural bazlı
+semboloji” penceresinden “sembol seviyesi” penceresi açılır. 
+
+<br>
+
+![](./img/06.18.png)
+
+<br>
+
+Açılan
+pencerede en üstte gözükmesi istenen semboller en yüksek seviyede olacak şekilde düzenleme yapılır.
+
+<br>
+
+![](./img/06.19.png)
+
+<br>
+
+Çizim sıraları düzenlendikten sonra çalışmanın görüntüsü şekilde
+gösterilmiştir.
+
+<br>
+
+![](./img/06.20.png)
+
+<br>
+
+Kural bazlı semboloji penceresinde bir kurala sağ tıklayarak “Mevcut kuralı düzenle”
+sekmesinden “Kurala kategori ekle” seçeneği seçilir.
+
+<br>
+
+![](./img/06.21.png)
+
+<br>
+
+Örneğin doğal alanlar için “natural” alanına göre sınıflandırma işlemi yapılır ve yeni
+oluşturulan sınıfların sembol seviyeleri düzenlenir.
+
+<br>
+
+![](./img/06.22.png)
+
+<br>
+
+Yapılan örnek sınıflandırmalar şu şekildedir:
+
+<br>
+
+![](./img/06.23.png)
+
+<br>
+
+Harita üzerinde görünüm:
+
+<br>
+
+![](./img/06.24.png)
+
+<br>
+<br>
+<br>
+<br>
+
+## 1.13. Vektör Analiz Araçları
 
 Daha önce projeye eklenen ve görünürlük tiki kaldırılmış ilçe merkezleri ('tur_pntcntr_adm2') katmanı tekrar görünür hale getirilir. İstanbul ilçe idari sınırları için yapılan seçim ve farklı kaydetme işlemi bu katman için de uygulanır. Kaydederken **hedef CRS**, projede kullanılan sistem olan **"TUREF /LCC Europe (EPSG:5637)"** olmalıdır. 
 

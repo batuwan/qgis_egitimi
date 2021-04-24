@@ -134,7 +134,7 @@ Açılan pencerede, 'İngiliz Anahtarı' ikonuna tıklayarak açılan menüde 'A
 
 <br>
 
-Kullanılan DEM katmanı yükseklik için tanımlanır. Düşer ölçek ve çözünürlük ayarlanır. 
+Kullanılan DEM katmanı yükseklik için tanımlanır. Düşey ölçek ve çözünürlük ayarlanır. 
 
 <br>
 

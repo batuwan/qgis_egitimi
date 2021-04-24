@@ -22,7 +22,9 @@ eklenir. Veriler klasöründe bu uygulamada kullanılan dosyalar bulunabilir.
 
 <br>
 
-## Temel Raster AraçlarıRaster veri analizi için farklı araçlar da vardır, bunlardan biri rölyef temsil yöntemi
+## Temel Raster Araçları
+
+Raster veri analizi için farklı araçlar da vardır, bunlardan biri rölyef temsil yöntemi
 olan “tepe gölgelemesi” aracıdır. “Raster” menüsünde bulunan “Analiz”
 sekmesinden “Hillshade” aracı açılır. Girdi katman, ışığın geliş açısı gibi değişkenler
 belirlenerek işlem çalıştırılır ve çıktı katman projeye eklenir. Katman özelliklerinden

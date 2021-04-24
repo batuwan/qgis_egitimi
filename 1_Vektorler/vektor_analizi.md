@@ -340,7 +340,7 @@ yolu izlenerek ulaşılabilir.
 
 <br>
 
-![OpenStreetMap altlığı ekleme](./img/01.01.png)
+![OpenStreetMap altlığı ekleme](./img/01.01.PNG)
 
 <br>
 
@@ -352,7 +352,7 @@ yolu ile katman oluşturma penceresine ulaşılır.
 
 <br>
 
-![ShapeFile Katmanı Oluştur - 1](./img/01.02.png)
+![ShapeFile Katmanı Oluştur - 1](./img/01.02.PNG)
 
 <br>
 
@@ -360,7 +360,7 @@ Açılan pencerede; dosyanın kaydedileceği konum ve dosya ismi, geometri tipi,
 
 <br>
 
-![ShapeFile Katmanı Oluştur - 2](./img/01.03.png)
+![ShapeFile Katmanı Oluştur - 2](./img/01.03.PNG)
 
 <br>
 
@@ -370,7 +370,7 @@ işlemine başlanır.
 
 <br>
 
-![Sayısallaştırma işlemi](./img/01.04.png)
+![Sayısallaştırma işlemi](./img/01.04.PNG)
 
 <br>
 
@@ -380,13 +380,13 @@ girilerek öznitelik kaydedilir.
 
 <br>
 
-<img src="./img/01.05.png" width="65%">
+<img src="./img/01.05.PNG" width="65%">
 
 <br>
 
 <br>
 
-![Sayısallaştırma işlemi](./img/01.06.png)
+![Sayısallaştırma işlemi](./img/01.06.PNG)
 
 <br>
 
@@ -394,7 +394,7 @@ Aynı işlemler nokta ve çizgi katmanları oluşturularak tekrarlanır. Çiziml
 
 <br>
 
-![Sayısallaştırma işlemi](./img/01.07.png)
+![Sayısallaştırma işlemi](./img/01.07.PNG)
 
 <br>
 <br>

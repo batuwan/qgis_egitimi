@@ -212,7 +212,7 @@ Nüfus yoğunluğu haritası oluşturmak için, ilçelerin alanlarının hesapla
 
 <br>
 
-![](./img/Capture.png)
+![](./img/Capture.PNG)
 
 <br>
 
@@ -222,7 +222,7 @@ Nüfus yoğunluğu haritası oluşturmak için, ilçelerin alanlarının hesapla
 
 <br>
 
-![](./img/Capture2.png)
+![](./img/Capture2.PNG)
 
 <br>
 
@@ -230,7 +230,7 @@ Nüfus yoğunluğu haritası oluşturmak için, ilçelerin alanlarının hesapla
 
 <br>
 
-![](./img/Capture3.png)
+![](./img/Capture3.PNG)
 
 <br>
 

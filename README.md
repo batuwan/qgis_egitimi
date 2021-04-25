@@ -31,7 +31,7 @@ Eğitim sonunda katılımcıların şu konularda temel yetkinliğe sahip olacakl
 
 - [2. Raster Veriler ile Çalışma](https://github.com/batuwan/qgis_egitimi/blob/main/2_Raster/raster_veriler.md)
 
-- 3. OpenStreetMap Verileri ile Çalışma (Eklenecek)
+- [3. OpenStreetMap Verileri ile Çalışma - Bitirme Projesi](https://github.com/batuwan/qgis_egitimi/blob/main/3_OSM/buyukada.md)
 
 <br> 
 
